@@ -2,6 +2,7 @@ body
 {
     background-color: rgba(12, 0, 0, 0.959);
     color: #421f2298;
+    transition: all 0.3s ease;
 }
 
 h1
@@ -21,9 +22,31 @@ button
 {
     height: 70px;
     width: 200px;
-    font-family: Ubunto;
-    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    background-color: rgb(250, 236, 236);
+    color: rgba(82, 65, 65, 0.604);
+    transition: all 0.8s ease;
 }
+
+button:hover
+{
+    background-color: white;
+    color: rgba(213, 117, 136, 0.722);
+    cursor: pointer;
+    width: 250px;
+    height: 80px;
+    font-size: 25px;
+}
+
+button:active
+{
+    font-size: 20px;
+}
+
 
 .container
 {
@@ -42,13 +65,13 @@ button
     transition: all 1s;
 }
 
-.container:hover
+/* .container:hover
 {
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;    
     background-color: #421f2298;
-}
+} */
 
-body:has(.container:hover)
+/* body:has(.container button:hover)
 {
     background-color: #a07f83a8;
-}
+} */
