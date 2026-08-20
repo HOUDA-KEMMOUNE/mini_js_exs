@@ -1,0 +1,54 @@
+body
+{
+    background-color: rgba(12, 0, 0, 0.959);
+    color: #421f2298;
+}
+
+h1
+{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+p
+{
+    font-family: monospace;
+    font-size: 30px;
+    color: rgb(80, 46, 46);
+}
+
+button
+{
+    height: 70px;
+    width: 200px;
+    font-family: Ubunto;
+    font-size: 15px;
+}
+
+.container
+{
+    /* padding-top: 100px; */
+    padding: 0px;
+    margin: 0px;
+    height: 500px;
+    /* width: 800px; */
+    margin: 100px 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7dadda8;
+    border-radius: 30px;
+    transition: all 1s;
+}
+
+.container:hover
+{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;    
+    background-color: #421f2298;
+}
+
+body:has(.container:hover)
+{
+    background-color: #a07f83a8;
+}
