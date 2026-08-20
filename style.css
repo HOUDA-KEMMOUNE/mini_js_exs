@@ -18,7 +18,7 @@ p
     color: rgb(80, 46, 46);
 }
 
-button
+.increment
 {
     height: 70px;
     width: 200px;
@@ -32,7 +32,7 @@ button
     transition: all 0.8s ease;
 }
 
-button:hover
+.increment:hover
 {
     background-color: white;
     color: rgba(213, 117, 136, 0.722);
@@ -42,7 +42,39 @@ button:hover
     font-size: 25px;
 }
 
-button:active
+.increment:active
+{
+    font-size: 20px;
+}
+
+/* ------------------------------------------------------------- */
+
+.decrement
+{
+    margin-top: 20px;
+    height: 70px;
+    width: 200px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    background-color: rgb(250, 236, 236);
+    color: rgba(82, 65, 65, 0.604);
+    transition: all 0.8s ease;
+}
+
+.decrement:hover
+{
+    background-color: white;
+    color: rgba(213, 117, 136, 0.722);
+    cursor: pointer;
+    width: 250px;
+    height: 80px;
+    font-size: 25px;
+}
+
+.decrement:active
 {
     font-size: 20px;
 }
